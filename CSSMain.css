@@ -1,0 +1,128 @@
+
+
+body{
+    background-image: url("https://images.pexels.com/photos/3377405/pexels-photo-3377405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin:auto;
+    outline-style: solid;
+    border-width: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+.titles{
+    font-size: 50px;
+    color: rgb(10, 10, 9);
+    font-family: 'Special Elite', cursive;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: wavy;
+    padding: 40px;
+}
+
+#temary{
+  float: left;
+  padding: 20px 20px 20px 20px;
+  margin: 0px 10px 20px 80px;
+  border: 10px double darkslategray;
+  background-image: url("https://st.depositphotos.com/1509285/4969/v/450/depositphotos_49698371-stock-illustration-flag-of-colombia-made-of.jpg");
+  background-color: rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-position: -1cm 1cm;
+  background-attachment: fixed;
+}
+
+#warnings{
+  -webkit-text-stroke-width: 1px;
+  float: right;
+  position: relative;
+  background-position: 0cm -1.5cm;
+  background-repeat: no-repeat;
+  border: 10px double darkslategray;
+  background-image: url("https://images.fineartamerica.com/images-medium-large-5/colombia-watercolor-map-michael-tompsett.jpg");
+  background-size: cover;
+}
+
+#Home{
+  padding: 100px;
+  position: static;
+  float: center;
+  margin:20px 350px 20px 250px ;
+  text-align: center;
+  display: block;
+}
+
+
+#summary ul{
+  list-style-type: none;
+}
+
+.navegation_link{
+  color: rgb(0, 0, 0);
+}
+
+#navegation_bar li a:hover{
+  background-color: #2828297e;
+  color: rgb(253, 252, 252);
+  transform: scale(1.5);
+  padding: 30px;
+  transition: transform 20px;
+  margin: 0 auto;
+
+}
+#navegation_bar ul{
+  text-align: left;
+  list-style-type: none;
+  padding: 30px;
+  margin: 0;
+  font-size: 20px;
+  background-color: #aaa1a1;
+  outline: ridge  #4b4a4a59;
+}
+
+#navegation_bar li{
+  margin: 0 150px 0 0;
+  display: inline;
+  box-sizing: 23px;
+}
+
+#content{
+  float: center;
+  padding: 20px 40px 20px 40px;
+  margin: 20px 200px 20px 200px;
+  border: 10px double darkslategray;
+}
+
+.Left_Images{
+  float: left;
+  padding: 0px;
+  margin: 10px;
+
+  border: rgb(224, 167, 9) 10px solid;
+  border-image-source: url("https://www.mclibre.org/consultar/htmlcss/css/ejemplos/img/css3-bordes/marco-dorado-200.png");
+  border-image-slice: 70;
+
+}
+.Rigth_Images{
+  float: right;
+  border: rgb(224, 167, 9) 10px solid;
+  padding: 0px;
+  margin: 10px;
+  border-image-source: url("https://www.mclibre.org/consultar/htmlcss/css/ejemplos/img/css3-bordes/marco-dorado-200.png");
+  border-image-slice: 70;
+}
+
+#bibliography {
+  float: center;
+  padding: 20px 40px 20px 40px;
+  margin: 20px 200px 20px 200px;
+
+}
+
+#absolute {
+  position: absolute;
+  bottom: 10px;
+  width: 50%;
+  border: 3px solid #8AC007;
+}
